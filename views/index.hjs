@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{{ title }}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1>{{ title }}</h1>
-    <p>Welcome to {{ title }}</p>
-  </body>
+    <head>
+        <title>Is the Earth 6000 years old?</title>
+        <link rel='stylesheet' href='/css/style.css' />
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <section id="intro">
+            <h1>No.</h1>
+        </section>
+
+        <section id="stats">
+            <p>
+                It's {{year}}...
+            </p>
+
+            <ul>
+                <li>46% of Americans <a href="http://en.wikipedia.org/wiki/Young_Earth_creationism">believe</a> the Earth is 6000 years old.</li>
+                <li>XX% of Americans don't believe in evolution.</li>
+                <li>XX% of Americans think the story of Noah's ark is literally true.</li>
+            </ul>
+            <!--http://www.gallup.com/poll/155003/hold-creationist-view-human-origins.aspx-->
+            <!--http://en.wikipedia.org/wiki/Level_of_support_for_evolution#United_States-->
+        </section>
+
+        <section id="quotes">
+            <p id="nye">
+                "And I say to the grownups, if you want to deny evolution and live in your world, in your world that's completely inconsistent with everything we observe in the universe, that's fine. But don't make your kids do it because we need them. We need scientifically literate voters and taxpayers for the future. We need people that can — we need engineers that can build stuff, solve problems." <br />
+                -- <a href="http://www.youtube.com/watch?v=gHbYJfwFgOU&feature=share&list=PLE50FC91A844EEC33&index=73">Bill Nye, Science Guy</a>
+            </p>
+
+            <p id="tyson">
+                "The good thing about Science is that it's true whether or not you believe in it." <br/>
+                -- <a href="https://twitter.com/neiltyson/status/345551599382446081">Neil deGrasse Tyson</a>
+            </p>
+        </section>
+
+        <section id="summary">
+            Science literacy. 
+        </section>
+
+        <footer>
+
+        </footer>
+    </body>
 </html>

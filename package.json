@@ -6,10 +6,14 @@
   },
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon -w ./ server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "express": "3.5.0",
     "hjs": "*"
+  },
+  "devDependencies": {
+    "nodemon": "~0.7.10"
   }
 }
