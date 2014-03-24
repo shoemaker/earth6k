@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Is the Earth 6000 years old?</title>
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" type="text/css">
         <link rel='stylesheet' href='/css/style.css' />
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -14,11 +15,8 @@
         </section>
 
         <section id="stats">
-            <p>
-                It's {{year}}...
-            </p>
-
             <ul>
+                <li>It's {{year}}...</li>
                 <li>46% of Americans <a href="http://en.wikipedia.org/wiki/Young_Earth_creationism">believe</a> the Earth is 6000 years old.</li>
                 <li>XX% of Americans don't believe in evolution.</li>
                 <li>XX% of Americans think the story of Noah's ark is literally true.</li>
