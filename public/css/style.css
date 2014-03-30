@@ -1,20 +1,20 @@
 body {
     background-color: #FFFFFF;
-    margin: 10px;
-    padding: 5px;
+    margin: 0px;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     color: #222222;
 }
 
 a {
-  color: #00B7FF;
+    color: #00B7FF;
+    text-decoration: none;
 }
 
 section {
     max-width: 768px;
-    margin: 10px auto 30px auto;
-    padding: 0 5px 0 5px;
+    margin: 10px auto 40px auto;
+    padding: 0 10px 0 10px;
 }
 
 #intro {
@@ -41,23 +41,31 @@ section {
     margin: 10px 0 25px 0;
 }
 
+#quotes {
+}
+
 #quotes p {
     line-height: 24px;
     margin-bottom: 20px;
 }
 
+footer {
+    background-color: #F5F5F5;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    margin-top: 70px;
+    padding: 30px 0;
+    font-size: 14px;
+}
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
     body {
-        margin: 5px;
-        padding: 5px;
         font-size: 14px;
     }
 
     section {
         margin: 5px auto 20px auto;
-        padding: 0;
     }
 
     #intro h1 {
@@ -73,14 +81,11 @@ section {
 /* Landscape phone to portrait tablet */
 @media (min-width: 481px) and (max-width: 767px) {
     body {
-        margin: 5px;
-        padding: 5px;
         font-size: 16px;
     }
 
     section {
         margin: 10px auto 30px auto;
-        padding: 0;
     }
 
     #intro h1 {
