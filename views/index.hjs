@@ -3,7 +3,8 @@
     <head>
         <title>Is the Earth 6000 years old?</title>
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" type="text/css">
-        <link rel='stylesheet' href='/css/style.css' />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link href="/bower/font-awesome/css/font-awesome.min.css" rel="stylesheet">
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
           <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
@@ -23,6 +24,10 @@
             </ul>
         </section>
 
+        <section id="summary">
+            Science literacy. {{year}}
+        </section>
+
         <section id="quotes">
             <p id="nye">
                 "And I say to the grownups, if you want to deny evolution and live in your world, in your world that's completely inconsistent with everything we observe in the universe, that's fine. But don't make your kids do it because we need them. We need scientifically literate voters and taxpayers for the future. We need people that can — we need engineers that can build stuff, solve problems." <br />
@@ -31,12 +36,8 @@
 
             <p id="tyson">
                 "The good thing about Science is that it's true whether or not you believe in it." <br/>
-                -- <a href="https://twitter.com/neiltyson/status/345551599382446081">Neil deGrasse Tyson</a>, Astrophysicist, Director of the Hayden Planetarium, host of Cosmos
+                -- <a href="https://twitter.com/neiltyson/status/345551599382446081">Neil deGrasse Tyson</a>, Astrophysicist, Director of the Hayden Planetarium, Host of Cosmos
             </p>
-        </section>
-
-        <section id="summary">
-            Science literacy. {{year}}
         </section>
 
         <footer>

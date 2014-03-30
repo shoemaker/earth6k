@@ -64,6 +64,10 @@ section {
         margin: 5px 0 10px 0;
         font-size: 60px;
     }
+
+    #stats li {
+        margin: 5px 0 10px 0;
+    }
 }
 
 /* Landscape phone to portrait tablet */
@@ -82,5 +86,8 @@ section {
     #intro h1 {
         margin: 10px 0 15px 0;
         font-size: 80px;
+    }
+    #stats li {
+        margin: 10px 0 15px 0;
     }
 }
