@@ -40,9 +40,7 @@
 
         <section id="summary">
             <p>
-                Even in {{year}} a sizable and vocal minority continues to dismiss the importance of science, and <a href="http://www.answersingenesis.org/articles/2007/05/30/how-old-is-earth">ignore</a> the facts on subjects ranging from evolution to the efficacy of vaccines to climate change. This jepordizes the position of the United States as a leader in science and technology. 
-            </p>
-            <p>
+                Even in {{year}} a sizable and vocal minority continues to dismiss the importance of science, and <a href="http://www.answersingenesis.org/articles/2007/05/30/how-old-is-earth">ignore</a> the facts on subjects ranging from evolution to the efficacy of vaccines to climate change. 
                 Scientific literacy is not a luxury. It's essential for jobs, economic growth and further understanding of our universe and ourselves.  
             </p>
         </section>
