@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Is the Earth 6000 years old?</title>
-        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:200,400,700" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="/css/style.css" />
         <link href="/bower/font-awesome/css/font-awesome.min.css" rel="stylesheet">
         <!--[if lt IE 9]>
@@ -30,26 +30,23 @@
                 <li><a href="http://www.gallup.com/poll/148427/say-bible-literally.aspx">30%</a> of Americans believe the Earth is around 6000 years old.</li>
                 <li><a href="http://www.gallup.com/poll/155003/hold-creationist-view-human-origins.aspx">46%</a> of Americans believe that humans were created in their present form within the last 10,000 years.</li>
                 <li>In truth, the Earth is <a href="http://en.wikipedia.org/wiki/Age_of_the_Earth"> 4.54 billion</a> years old. The universe is <a href="http://en.wikipedia.org/wiki/Age_of_the_universe">13.8 billion</a> years old. </li>
-                <li>We know this because... science. </li>
+                <li>We know this because... <a href="http://www.space.com/24054-how-old-is-the-universe.html">science</a>. </li>
             </ul>
         </section>
 
         <section id="summary">
             <p>
-                The United States owes much of its prosperity and status in the world to the advancement of science and technology. Since World War II investments in higher education and R&D have led to advances in fields ranging from biology, physics and astronomy. Generations of immigrants have been attracted to our shores because of the free exchange of ideas and respect for science. Those immigrants are major innovators and responsible for new companies and jobs.
+                Even in {{year}} a sizable and vocal minority continues to dismiss the importance of science, and <a href="http://www.answersingenesis.org/articles/2007/05/30/how-old-is-earth">ignore</a> the facts on subjects ranging from evolution to the efficacy of vaccines to climate change. This jepordizes the position of the United States as a leader in science and technology. 
             </p>
             <p>
-                In {{year}} we are witnessing a waning respect for the importance of science. 
-            </p>
-            <p>
-                Science literacy is not a luxury, it's essential for economic growth and further understanding of our universe and ourselves.
+                Scientific literacy is not a luxury. It's essential for jobs, economic growth and further understanding of our universe and ourselves.  
             </p>
         </section>
 
         <section id="quotes">
             <p id="nye">
                 <i class="fa fa-2x fa-quote-left"></i> And I say to the grownups, if you want to deny evolution and live in your world, in your world that's completely inconsistent with everything we observe in the universe, that's fine. But don't make your kids do it because we need them. We need scientifically literate voters and taxpayers for the future. We need people that can — we need engineers that can build stuff, solve problems." <br />
-                — <a href="http://www.youtube.com/watch?v=gHbYJfwFgOU&feature=share&list=PLE50FC91A844EEC33&index=73">Bill Nye</a>, Science Guy
+                — <a href="http://www.youtube.com/watch?v=gHbYJfwFgOU&feature=share&list=PLE50FC91A844EEC33&index=73">Bill Nye</a>, Scientist, Educator, Science Guy
             </p>
 
             <p id="tyson">
@@ -60,17 +57,21 @@
 
         <footer>
             <section>
+                <h3>Read More</h3>
                 <ul>
                     <li><a href="http://www.gallup.com/poll/155003/hold-creationist-view-human-origins.aspx">In U.S., 46% Hold Creationist View of Human Origins</a> - Gallup</li>
                     <li><a href="http://www.gallup.com/poll/148427/say-bible-literally.aspx">In U.S., 3 in 10 Say They Take the Bible Literally</a> - Gallup</li>
                     <li><a href="http://en.wikipedia.org/wiki/Level_of_support_for_evolution#United_States">Levels of support for evolution</a> - Wikipedia</li>                    
                     <li><a href="http://en.wikipedia.org/wiki/Young_Earth_creationism">Young Earth creationism</a> - Wikipedia</li>
-                    <li><a href="http://www.answersingenesis.org/articles/2007/05/30/how-old-is-earth">How old is the Earth?</a> - Answers in Genesis</li>
+                    <li><a href="http://www.answersingenesis.org/articles/2007/05/30/how-old-is-earth">How Old is the Earth?</a> - Answers in Genesis</li>
+                    <li><a href="http://www.space.com/24054-how-old-is-the-universe.html">How Old is the Universe?</a> - Space.com</li>
                     <li><a href="http://en.wikipedia.org/wiki/Age_of_the_Earth">Age of the Earth</a> - Wikipedia</li>
                     <li><a href="http://en.wikipedia.org/wiki/Age_of_the_universe">Age of the Universe</a> - Wikipedia</li>
                 </ul>
             </section>
             
         </footer>
+
+        <script src="/js/script.js"></script>
     </body>
 </html>

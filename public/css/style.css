@@ -7,7 +7,7 @@ body {
 }
 
 a {
-    color: #00B7FF;
+    color: #428BCA;
     text-decoration: none;
 }
 
@@ -56,6 +56,10 @@ footer {
     margin-top: 70px;
     padding: 5px;
     font-size: 14px;
+}
+
+footer h3 {
+    margin-bottom: 5px;
 }
 
 footer ul {
