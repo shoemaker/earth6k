@@ -46,7 +46,6 @@ section {
 }
 
 #quotes p {
-    line-height: 24px;
     margin-bottom: 20px;
 }
 
@@ -99,6 +98,7 @@ footer li {
 @media (min-width: 481px) and (max-width: 767px) {
     body {
         font-size: 16px;
+        line-height: 22px;
     }
 
     section {
