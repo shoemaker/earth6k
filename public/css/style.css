@@ -3,7 +3,7 @@ body {
     margin: 0px;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 24px;
     color: #222222;
 }
 
@@ -78,6 +78,7 @@ footer li {
 @media (max-width: 480px) {
     body {
         font-size: 14px;
+        line-height: 22px;
     }
 
     section {
