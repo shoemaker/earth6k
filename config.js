@@ -1,3 +1,3 @@
 exports.config = {
-    appPort: 8089
+    appPort: 3000
 }

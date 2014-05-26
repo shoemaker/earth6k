@@ -1,21 +1,24 @@
 {
   "name": "earth6k",
   "version": "0.0.1",
-  "engines": {
-    "node": "0.10.x"
-  },
   "private": true,
   "scripts": {
-    "start": "nodemon -w ./ server.js",
+    "start": "nodemon -w /. server.js",
     "test": "echo \"No test specified... yet\" && exit 0",
     "postinstall": "./node_modules/bower/bin/bower install"
   },
   "dependencies": {
-    "express": "3.5.0",
-    "hjs": "*",
-    "bower": "1.3.1"
+    "bower": "^1.3.3",
+    "express": "^4.3.1",
+    "body-parser": "^1.2.0",
+    "compression": "^1.0.2",
+    "static-favicon": "^1.0.2",
+    "hjs": "*"
   },
   "devDependencies": {
-    "nodemon": "~0.7.10"
+    "nodemon": "^1.0.20"
+  },
+  "engines": {
+    "node": "0.10.28"
   }
 }
