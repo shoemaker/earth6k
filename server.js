@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-var express = require('express');
+var express = require('express'); 
 var bodyParser = require('body-parser');
 var compress = require('compression');
 var favicon = require('serve-favicon');
@@ -17,10 +17,10 @@ var app = express();
 // all environments
 app.set('port', process.env.PORT || c.appPort);
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'hjs');
+app.set('view engine', 'hbs');
 app.use(favicon(__dirname + '/public/img/favicon.ico'));
 app.use(compress());
-app.use(bodyParser());
+app.use(bodyParser.urlencoded( { extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 
