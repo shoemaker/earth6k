@@ -1,0 +1,62 @@
+[
+    {
+        "date" : "May 12, 2015",
+        "text" : "Louisiana: Burning Science at the Stake",
+        "url" : "http://www.slate.com/blogs/bad_astronomy/2015/05/12/louisiana_creationism_science_and_heretics.html",
+        "source" : "Slate"
+    },
+    {
+        "date" : "June 2, 2014",
+        "text" : "In U.S., 42% Hold Creationist View of Human Origins",
+        "url" : "http://www.gallup.com/poll/170822/believe-creationist-view-human-origins.aspx",
+        "source" : "Gallup"
+    },
+    {
+        "date" : "July 8, 2011",
+        "text" : "In U.S., 3 in 10 Say They Take the Bible Literally",
+        "url" : "http://www.gallup.com/poll/148427/say-bible-literally.aspx",
+        "source" : "Gallup"
+    },
+    {
+        "date" : null,
+        "text" : "Levels of support for evolution",
+        "url" : "http://en.wikipedia.org/wiki/Level_of_support_for_evolution#United_States",
+        "source" : "Wikipedia"
+    },
+    {
+        "date" : null,
+        "text" : "Young Earth creationism",
+        "url" : "http://en.wikipedia.org/wiki/Young_Earth_creationism",
+        "source" : "Wikipedia"
+    },    
+    {
+        "date" : null,
+        "text" : "Human Fossils",
+        "url" : "http://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+        "source" : "Smithsonian"
+    },
+    {
+        "date" : null,
+        "text" : "How Old is the Earth?",
+        "url" : "http://www.answersingenesis.org/articles/2007/05/30/how-old-is-earth",
+        "source" : "Answers in Genesis"
+    },
+    {
+        "date" : null,
+        "text" : "How Old is the Universe?",
+        "url" : "http://wmap.gsfc.nasa.gov/news/",
+        "source" : "NASA"
+    },
+    {
+        "date" : null,
+        "text" : "Age of the Earth",
+        "url" : "http://en.wikipedia.org/wiki/Age_of_the_Earth",
+        "source" : "Wikipedia"
+    },
+    {
+        "date" : null,
+        "text" : "Age of the Universe",
+        "url" : "http://en.wikipedia.org/wiki/Age_of_the_universe",
+        "source" : "Wikipedia"
+    }
+]
