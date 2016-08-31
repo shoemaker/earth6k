@@ -16,7 +16,7 @@
     "serve-favicon": "^2.3.0"
   },
   "devDependencies": {
-    "nodemon": "^1.10.0"
+    "nodemon": "^1.10.2"
   },
   "engines": {
     "node": "4.5.0"
