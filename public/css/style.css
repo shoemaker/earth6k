@@ -4,12 +4,16 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     line-height: 32px;
-    color: #222222;
+    color: #444;
 }
 
 a {
     color: #428BCA;
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 section {
@@ -18,9 +22,26 @@ section {
     padding: 0 10px 0 10px;
 }
 
+#banner {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #2a7ab9;
+    padding: 10px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+#banner h3 {
+    margin: 0;
+}
+
 #intro {
     text-align: center;
-    margin: 40px auto;
+    margin: 140px auto;
 }
 
 #intro h1 {
@@ -74,6 +95,21 @@ footer li {
     margin: 5px 0;
 }
 
+
+#attribution {
+    background-color: #2a7ab9;
+    text-align: center;
+    color: #FFF;
+    padding: 5px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#attribution a {
+    color: #FFF;
+}
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
     body {
@@ -87,7 +123,7 @@ footer li {
 
     #intro {
         text-align: center;
-        margin: 5px auto;
+        margin: 100px auto;
     }
 
     #intro h1 {
@@ -112,7 +148,7 @@ footer li {
 
     #intro {
         text-align: center;
-        margin: 10px auto;
+        margin: 120px auto;
     }
 
     #intro h1 {

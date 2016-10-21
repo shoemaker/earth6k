@@ -12,7 +12,7 @@
   "license": "MIT",
   "homepage": "http://istheearth6000yearsold.com",
   "private": true,
-  "dependencies" : {
+  "dependencies": {
     "font-awesome": "4.6.3"
   }
 }
