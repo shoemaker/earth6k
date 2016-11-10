@@ -1,9 +1,10 @@
 body {
     background-color: #FFFFFF;
     margin: 0px;
+    padding: 0px;
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
-    line-height: 32px;
+    line-height: 1.5em;
     color: #444;
 }
 
@@ -19,7 +20,7 @@ a:hover {
 section {
     max-width: 768px;
     margin: 10px auto 40px auto;
-    padding: 0 10px 0 10px;
+    padding: 0 15px 0 15px;
 }
 
 #banner {
@@ -45,7 +46,7 @@ section {
 }
 
 #intro h1 {
-    font-size: 120px;
+    font-size: 4em;
 }
 
 #stats {
@@ -75,9 +76,9 @@ footer {
     border-top: 1px solid #E5E5E5;
     border-bottom: 1px solid #E5E5E5;
     margin-top: 50px;
-    padding: 5px;
-    font-size: 14px;
-    line-height: 22px;
+    padding: 15px;
+    font-size: .8em;
+    line-height: 1.2em;
 }
 
 footer h3 {
@@ -92,7 +93,7 @@ footer ul {
 
 footer li {
     list-style: none outside none;
-    margin: 5px 0;
+    margin: 15px 0;
 }
 
 
@@ -102,8 +103,7 @@ footer li {
     color: #FFF;
     padding: 5px;
     margin: 0;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: .8em;
 }
 
 #attribution a {
@@ -113,8 +113,7 @@ footer li {
 /* Landscape phones and down */
 @media (max-width: 480px) {
     body {
-        font-size: 14px;
-        line-height: 22px;
+        font-size: 16px;
     }
 
     section {
@@ -127,7 +126,7 @@ footer li {
     }
 
     #intro h1 {
-        font-size: 60px;
+
     }
 
     #stats li {
@@ -138,8 +137,7 @@ footer li {
 /* Landscape phone to portrait tablet */
 @media (min-width: 481px) and (max-width: 767px) {
     body {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 18px;
     }
 
     section {
@@ -152,7 +150,7 @@ footer li {
     }
 
     #intro h1 {
-        font-size: 80px;
+
     }
 
     #stats li {
