@@ -1,10 +1,17 @@
 [
     {
+        "date" : "May 17, 2017",
+        "text" : "A Creationist Sues the Grand Canyon for Religious Discrimination",
+        "url" : "https://www.theatlantic.com/science/archive/2017/05/grand-canyon-creationism/526467/",
+        "source" : "The Atlantic"
+    },  
+    {
         "date" : "April 13, 2017",
         "text" : "The Evangelical Roots of Our Post-Truth Society",
         "url" : "https://www.nytimes.com/2017/04/13/opinion/sunday/the-evangelical-roots-of-our-post-truth-society.html",
         "source" : "New York Times"
-    },    {
+    },    
+    {
         "date" : "January 30, 2017",
         "text" : "DeVos’ Code Words for Creationism Offshoot Raise Concerns About ‘Junk Science’",
         "url" : "https://www.propublica.org/article/devos-education-nominees-code-words-for-creationism-offshoot-raise-concerns",
