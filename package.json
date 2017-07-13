@@ -10,7 +10,7 @@
   "dependencies": {
     "body-parser": "^1.17.2",
     "bower": "^1.8.0",
-    "compression": "^1.6.2",
+    "compression": "^1.7.0",
     "express": "^4.15.3",
     "hbs": "^4.0.0",
     "serve-favicon": "^2.4.3"
@@ -19,6 +19,6 @@
     "nodemon": "^1.10.2"
   },
   "engines": {
-    "node": "6.11.0"
+    "node": "6.11.1"
   }
 }
