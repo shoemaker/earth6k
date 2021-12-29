@@ -5,6 +5,6 @@ Code base for [istheearth6000yearsold.com](http://istheearth6000yearsold.com).
 ### Development
 
     $ npm install 
-    $ bower install 
+    $ npm run build
     $ npm start
 
