@@ -19,7 +19,7 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "lodash": "^4.17.21",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.2"
   },
   "engines": {
     "node": "20.9.0"
