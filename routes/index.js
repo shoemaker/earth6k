@@ -1,18 +1,14 @@
-var fs = require('fs');
+const fs = require('fs');
+
+// Load once at startup rather than on every request
+const sources = JSON.parse(fs.readFileSync('./sources.json', 'utf8'));
 
 /*
  * GET home page.
  */
 exports.index = function(req, res) {
-    var model = {
-        year : new Date().getFullYear(),
-        sources : null
-    };
-
-    // Load sources for more reading
-    fs.readFile(process.cwd() + '/sources.json', function(err, sources) {
-        sources = JSON.parse(sources);
-        model.sources = sources;
-        res.render('index', model);  
-    });  
+    res.render('index', {
+        year: new Date().getFullYear(),
+        sources
+    });
 };
