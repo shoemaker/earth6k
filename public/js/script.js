@@ -1,7 +1,6 @@
-document.addEventListener('DOMContentLoaded', function(){
-    var links = document.getElementsByTagName('a');
-    for (var ii=0; ii<links.length; ii++) {
-        links[ii].setAttribute('target', '_blank');
-    }
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+    });
 });
-
